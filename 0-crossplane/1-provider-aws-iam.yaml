@@ -1,0 +1,7 @@
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provder-aws-iam
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-iam:v1.12.0
